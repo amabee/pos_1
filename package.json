@@ -1,0 +1,31 @@
+{
+  "name": "grocery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@zxing/library": "^0.21.2",
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "grocery": "file:",
+    "html5-qrcode": "^2.3.8",
+    "next": "^14.2.5",
+    "qrcode.react": "^3.1.0",
+    "quagga": "^0.12.1",
+    "react": "^18",
+    "react-bootstrap": "^2.10.4",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-dom": "^18",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
